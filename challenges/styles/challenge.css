@@ -1,0 +1,36 @@
+
+html {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+img {
+    display: block;
+    width: 15%;
+    margin: 50px auto;
+}
+h2, h3 {
+    font: 1em sans-serif;
+    text-align: center;
+    color: white;
+}
+li {
+    display: block;
+    font-size: x-small;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    width: 50%;
+    color: white;
+    margin: 50px auto;
+}
+nav {
+    text-align: center;
+}
