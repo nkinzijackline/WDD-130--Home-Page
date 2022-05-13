@@ -53,5 +53,5 @@ nav a, .book, .join, footer a {
     text-decoration: none;
 }
 footer h3, a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
