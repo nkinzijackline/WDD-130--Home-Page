@@ -11,9 +11,6 @@ a, #hero-img,h1, #hero-msg, h4, .button-box, main {
 header {
     width: auto;
 }
-#hero-img {
-    width: 150px;
-}
 body {
     background: color #9fb7b9;
 }
