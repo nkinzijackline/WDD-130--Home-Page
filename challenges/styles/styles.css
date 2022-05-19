@@ -1,0 +1,23 @@
+body { 
+    max-width: fit-content;
+    margin: center;
+}
+#circles_image {
+    margin: 50px auto;
+}
+.column {
+    display: block;
+    margin: 0;
+    padding: 5px;
+    width: 30%;
+    float: left;
+}
+img.ice {
+    border-radius: 50%;    
+    width: 80%;
+    padding: 10px;
+}
+html {
+    background-color: rgb(143, 142, 142);
+    width: fit-content;
+}
