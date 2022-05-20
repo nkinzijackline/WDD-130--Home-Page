@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Playfair+Display:wght@500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,29 +9,48 @@ a, #hero-img,h1, #hero-msg, h4, .button-box, main {
 }
 #background {
     height: 725px;
+    background-color: aliceblue;
 }
 header {
     width: auto;
 }
 body {
     background: color #9fb7b9;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #9fb7b9;
 }
-nav a:hover, .book, .join, .book:hover, .join:hover  { 
+nav a:hover, .book:hover, .join:hover  { 
     background-color: #5dc3b5;
 }
-#background {
-    background-color: aliceblue;
+.book, .join {
+    font-size: 18px;
+    background-color: #5dc3b5;
+    color: black;
+    border-radius: 5px;
 }
-.msg, footer {
+footer {
     background-color: #73bc41;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
-nav a:hover, .home-title {
+.msg {
+    line-height: 1.5em;
+    background-color: #73bc41;
+    padding: 35px;
+}
+nav a:hover {
     color: #46b1c9;
 }
- .book, .join, .book:hover, .join:hover, h2 {
+.home-title {
+    font-size: 2em;
+    color: #46b1c9;
+    margin-top: 10px;
+}
+.book:hover, .join:hover, h2 {
     color: black;
 }
 #msg, .msg, p, h3 {
@@ -42,16 +63,53 @@ h4 {
     color: black;
     background-color: #5dc3b5;
 }
-.icon {
+.icon, .logo {
     width: 80px;
 }
 #hero-img {
     width: 100%;
 }
+h1, h4 {
+    font-family: 'Kalam';
+}
+h2 {
+    margin: 0;
+}
 nav a, .book, .join, footer a {
     text-align: center;
     text-decoration: none;
+    font-family: 'Playfair Display';
 }
 footer h3, a:hover {
     text-decoration: none;
+}
+.msg p {
+    font-size: .8em;
+    color: white;
+    padding: 15px;
+}
+#logo-link {
+    padding-top: 5px;
+}
+nav a {
+    padding: 35px;
+}
+.book, .join {
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #9f9f9f;
+}
+main section img {
+    box-sizing: border-box;
 }
