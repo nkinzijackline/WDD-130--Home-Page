@@ -47,7 +47,7 @@ nav a:hover {
 }
 .home-title {
     font-size: 2em;
-    color: #46b1c9;
+    color: white;
     margin-top: 10px;
 }
 .book:hover, .join:hover, h2 {
@@ -55,9 +55,6 @@ nav a:hover {
 }
 #msg, .msg, p, h3 {
     color: white;
-}
-h4 {
-    color: #40a1b7;
 }
  footer a, footer a:hover {
     color: black;
@@ -71,6 +68,7 @@ h4 {
 }
 h1, h4 {
     font-family: 'Kalam';
+    color: white;
 }
 h2 {
     margin: 0;
