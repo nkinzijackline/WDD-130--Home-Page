@@ -76,7 +76,7 @@ h2 {
 nav a, .book, .join, footer a {
     text-align: center;
     text-decoration: none;
-    font-family: 'Playfair Display', serif, sans-serif ;
+    font-family: 'Playfair Display', Arial, sans-serif;
 }
 footer h3, a:hover {
     text-decoration: none;
