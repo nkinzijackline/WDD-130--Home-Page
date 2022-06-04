@@ -113,8 +113,8 @@ footer .social img {
 }
 #hero-box {
     grid-column: 1/4;
-    grid-template-areas: 1/3;
-    margin-top: -310px;
+    grid-row: 1/3;
+    margin-top: -100px;
    z-index: -1; 
 }
 #hero-msg {
