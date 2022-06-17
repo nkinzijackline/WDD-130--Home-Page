@@ -218,4 +218,30 @@ main section img {
         margin-top: 25px;
     }
 }
+
+ /*faq.html css here */
+ .row {
+    display: flex;
+    
+ }
+ .column {
+    width: 80%;
+    padding: 5px;
+ }
+ ul {
+    align-content: flex-end;
+    text-indent: 20px;
+ }
+ h2 {
+    font-size: 60px;
+    color: white;
+ }
+ h5 {
+    font-size: 40px;
+    text-align: left;
+ }
+ p {
+    font-size: 30px;
+    text-align: justify;
+ }
             
