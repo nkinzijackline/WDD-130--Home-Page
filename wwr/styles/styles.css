@@ -228,10 +228,7 @@ main section img {
     width: 80%;
     padding: 5px;
  }
- ul {
-    align-content: flex-end;
-    text-indent: 20px;
- }
+ 
  h2 {
     font-size: 60px;
     color: white;
@@ -244,4 +241,6 @@ main section img {
     font-size: 30px;
     text-align: justify;
  }
-            
+#faq-grid {
+    margin: 25px 50px 75px 100px
+}         
