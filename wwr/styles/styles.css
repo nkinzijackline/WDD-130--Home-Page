@@ -241,6 +241,6 @@ main section img {
     font-size: 30px;
     text-align: justify;
  }
-#faq-grid {
-    margin: 25px 50px 75px 100px
+ p, h5 {
+    margin:25px 50px 75px 100px;
 }         
