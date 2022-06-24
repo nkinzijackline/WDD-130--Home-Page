@@ -109,7 +109,7 @@ h5 {
     justify-items: space-around;
     text-align: center;
 }
-p {
+.start {
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
     color: black;
@@ -138,4 +138,26 @@ ul {
 .story {
     margin-top: -200px;
     font-size: 20px;
+}
+/* faq css here */
+.faq-container {
+    display: grid;
+    grid-template-columns: 1fr  3fr;
+}
+.notes {
+    font-size: 20px;
+    font-family: Lobster, sans-serif, aerial;
+    color: #909872;
+}
+.faq {
+    justify-items: center;
+    font-family: Noto+Sans+Display, Sans, sans-serif;
+    font-size: 25px;
+}
+.text {
+    justify-content: space-around;
+    margin: 15px 15px;
+    font-size: 20px;
+    font-family: Noto+Sans+Display, Sans, sans-serif;
+    color: #8cbfb9
 }
