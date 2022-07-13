@@ -50,9 +50,9 @@ header {
     margin-top: 5px;
     margin-right: 16px;
     background: #658383;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
 .top_nav .login-container button:hover {
     background: #658383;
@@ -61,8 +61,15 @@ header {
     width: 100px;
 }
 footer {
+    width: auto;
+    display: grid;
+    grid-template-columns: auto;
+      
+}
+
+.bottom_nav{
     align-items: center;
-    display: flex;
+    display: block;
     justify-content: space-around;
     margin-top: 200px;
     text-align: center;
@@ -70,9 +77,21 @@ footer {
     font-size: 20px;
     padding: 100px 150px;
     background-color: #c67b31;
+    overflow: hidden;
 }
+
 .social {
-    padding-top: 15px;
+    padding-top: 10px;
+
+}
+.bottom_nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family:  Noto-Sans-Display, Sans, sans-serif;
+    font-size: 20px;
+    padding: 20px 25px;
+    float: left;
 }
 #quote, h1 {
     display: block;
@@ -152,7 +171,7 @@ h5 {
     grid-column: 2/3;
     grid-row: 1/3;
 }
-ul {
+dl {
     margin-top: -500px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
